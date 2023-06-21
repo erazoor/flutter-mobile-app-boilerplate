@@ -1,16 +1,27 @@
-# flutter_mobile_app_boilerplate
+# Flutter BoilerPlate
 
-A new Flutter project.
+[![Flutter Version](https://img.shields.io/badge/flutter-v2.5.2-blue.svg)](https://flutter.dev/docs/get-started/install)
+[![Dart Version](https://img.shields.io/badge/dart-v2.14.3-blue.svg)](https://dart.dev/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## Description
+
+A brief description of your project goes here.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: [Installation Guide](https://flutter.dev/docs/get-started/install)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installing
+
+1. Clone the repository:
+
+git clone <https://github.com/erazoor/flutter_mobile_app_boilerplate>
+
+## Author
+
+- [erazoor](https://github.com/erazoor)
