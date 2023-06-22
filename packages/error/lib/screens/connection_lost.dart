@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ConnectionLostScreen extends StatelessWidget {
-  const ConnectionLostScreen({super.key});
+  const ConnectionLostScreen({key});
 
   @override
   Widget build(BuildContext context) {
