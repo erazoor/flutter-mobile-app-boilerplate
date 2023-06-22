@@ -1,5 +1,5 @@
-name: authentication
-description: Package containing all the authentication logic such as logging in, logging out, reset password...
+name: user_provider
+description: Package containing the user's provider
 
 publish_to: 'none'
 version: 1.0.0+1
@@ -12,6 +12,7 @@ dependencies:
     sdk: flutter
   http: ^1.0.0
   provider: ^6.0.5
+  shared_preferences: ^2.1.2
 
 dev_dependencies:
   flutter_test:
