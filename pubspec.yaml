@@ -34,8 +34,8 @@ dependencies:
     path: ./packages/authentication
   user_provider:
     path: ./packages/user_provider
-  error:
-    path: ./packages/error
+  error_handler:
+    path: packages/error_handler
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
