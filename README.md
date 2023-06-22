@@ -1,6 +1,6 @@
 # Flutter BoilerPlate
 
-[![Flutter Version](https://img.shields.io/badge/flutter-v2.5.2-blue.svg)](https://flutter.dev/docs/get-started/install) [![Dart Version](https://img.shields.io/badge/dart-v2.14.3-blue.svg)](https://dart.dev/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Flutter Version](https://img.shields.io/badge/flutter-v2.5.2-blue.svg)](https://flutter.dev/docs/get-started/install) [![Dart Version](https://img.shields.io/badge/dart-v2.14.3-blue.svg)](https://dart.dev/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 ## Description
 
