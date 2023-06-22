@@ -7,4 +7,11 @@ class AppFonts {
     letterSpacing: -1.5,
     fontFamily: 'Roboto, sans-serif',
   );
+
+  static const TextStyle errorMessage = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w400,
+    letterSpacing: 0.25,
+    fontFamily: 'Roboto, sans-serif',
+  );
 }
