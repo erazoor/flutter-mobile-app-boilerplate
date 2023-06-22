@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 
 import 'package:flutter_mobile_app_boilerplate/app/themes/fonts.dart'
@@ -16,18 +14,18 @@ class HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    log('Home Page Initialized');
-    throw Exception('Test Error');
   }
 
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor: Colors.white,
       body: Center(
-        child: Text(
-          'Welcome to the Home Page!',
-          style: app_fonts.AppFonts.h1,
-        ),
+        child: 
+          Text(
+            'Welcome to the Home Page!',
+            style: app_fonts.AppFonts.h1,
+          ),
       ),
     );
   }

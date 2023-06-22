@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_mobile_app_boilerplate/app/config/config_file.dart'
     as config;
-import 'package:flutter_mobile_app_boilerplate/app/widgets/error_widget.dart';
+import 'package:flutter_mobile_app_boilerplate/app/views/home_page.dart';
 
 void main() {
   ErrorWidget.builder = (FlutterErrorDetails details) {
@@ -10,8 +10,12 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.white,
         body: Center(
-          child: CustomErrorWidget(
-            errorMessage: details.exception.toString(),
+          child: Text(
+            'Error: ${details.exception}',
+            style: const TextStyle(
+              color: Colors.red,
+              fontSize: 24,
+            ),
           ),
         ),
       ),
@@ -26,6 +30,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: config.app_name);
+    return const MaterialApp(
+      title: config.app_name,
+      home: HomePage(),
+    );
   }
 }
