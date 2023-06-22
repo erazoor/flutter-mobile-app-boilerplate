@@ -1,0 +1,22 @@
+name: authentication
+description: Package containing all the authentication logic such as logging in, logging out, reset password...
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.3.0
+
+flutter:
+  uses-material-design: true
