@@ -9,10 +9,10 @@ class ConnectionLostScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset(
+          /*Image.asset(
             "lib/assets/images/connection_lost.png", // Todo -> Fix path
             fit: BoxFit.cover,
-          ),
+          ),*/
           Positioned(
             bottom: MediaQuery.of(context).size.height * 0.12,
             left: MediaQuery.of(context).size.width * 0.065,

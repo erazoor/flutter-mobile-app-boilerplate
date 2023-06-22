@@ -46,4 +46,6 @@ class NetworkErrorException implements Exception {
 
 class DatabaseErrorException implements Exception {
   // Custom properties and methods related to the database error
+
 }
+
