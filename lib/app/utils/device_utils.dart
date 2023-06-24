@@ -1,17 +1,16 @@
-import 'dart:io';
 import 'package:location/location.dart';
+import 'package:connectivity/connectivity.dart';
 
 class DeviceUtils {
-  static Future<bool> checkConnection() async {
-    try {
-      final result = await InternetAddress.lookup('google.com');
-      if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
-        return true;
-      }
-    } on SocketException catch (_) {
-      return false;
+  Future<bool> hasInternetConnection() async {
+    var connectivityResult = await (Connectivity().checkConnectivity());
+
+    if (connectivityResult == ConnectivityResult.mobile ||
+        connectivityResult == ConnectivityResult.wifi) {
+      return true; // Internet connection is available
+    } else {
+      return false; // Internet connection is not available
     }
-    return false;
   }
 
   static Future<bool> isLocationEnabled() async {

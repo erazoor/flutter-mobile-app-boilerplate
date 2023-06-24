@@ -44,7 +44,7 @@ dependencies:
   flutter_svg: ^2.0.7
   flutter_launcher_icons: ^0.13.1
   location: ^4.4.0
-  internet_connection_checker: ^0.0.1
+  connectivity: ^3.0.6
 
 dev_dependencies:
   flutter_test:
