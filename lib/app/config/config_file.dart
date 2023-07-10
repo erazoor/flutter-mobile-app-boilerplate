@@ -20,6 +20,12 @@ class LogConfig {
   static const String logFilePath = 'var/log/application.log';
 }
 
+class StrategiesConfig {
+  static const bool enableGoogleStrategy = true;
+  static const bool enableTwitterStrategy = true;
+  static const bool enableJwtStrategy = true;
+}
+
 // Ui Constants
 const String appName = 'Flutter Mobile App Boilerplate';
 
