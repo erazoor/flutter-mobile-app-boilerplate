@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 import 'package:flutter_mobile_app_boilerplate/app/themes/fonts.dart'
     as app_fonts;
 
