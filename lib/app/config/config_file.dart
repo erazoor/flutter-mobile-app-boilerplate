@@ -14,6 +14,12 @@ class DatabaseConfig {
   static int get databasePort => int.parse(dotenv.env['DATABASE_PORT'] ?? '3000');
 }
 
+class LogConfig {
+  static const bool enableLogging = true;
+  static const bool logToFile = true;
+  static const String logFilePath = 'var/log/application.log';
+}
+
 // Ui Constants
 const String appName = 'Flutter Mobile App Boilerplate';
 
