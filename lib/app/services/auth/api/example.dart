@@ -3,6 +3,8 @@ import 'package:logging/logging.dart';
 
 import 'package:flutter_mobile_app_boilerplate/app/config/config_file.dart'
     as config;
+import 'package:flutter_mobile_app_boilerplate/app/error/error_constants.dart'
+    as errors;
 
 class Example {
   static final Map<String, String> headers = {
@@ -16,7 +18,7 @@ class Example {
     try {
       http.Response response = await http.get(url, headers: headers);
 
-      if (response.statusCode != 200) {
+      if (response.statusCode != errors.kErrorCodeServer) {
         _logger.severe('Failed: ${response.statusCode}');
         throw Exception('Failed: ${response.statusCode}');
       }
@@ -24,8 +26,8 @@ class Example {
       // Process the response
 
     } catch (error, stackTrace) {
-      _logger.severe('Failed to remove favorite', error, stackTrace);
-      throw Exception('Failed to remove favorite: $error');
+      _logger.severe('Failed', error, stackTrace);
+      throw Exception('Failed: $error');
     }
   }
 }
