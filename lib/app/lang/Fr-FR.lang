@@ -1,0 +1,46 @@
+# Fichier de localisation pour la langue française (France)
+# Fichier template utilisé à titre d'exemple pour la création de nouveaux fichiers de localisation
+
+# Général
+welcome_message=Bienvenue dans notre application !
+confirm=Confirmer
+cancel=Annuler
+back=Retour
+save=Sauvegarder
+delete=Supprimer
+success=Succès
+error=Erreur
+
+# Messages d'erreur
+error_message=Une erreur s'est produite. Veuillez réessayer plus tard.
+field_required=Le champ est obligatoire.
+invalid_email=Veuillez entrer une adresse e-mail valide.
+password_mismatch=Les mots de passe ne correspondent pas.
+
+# Menu
+menu_home=Accueil
+menu_about=À propos
+menu_contact=Contact
+menu_settings=Paramètres
+
+# Accueil
+home_title=Bienvenue dans notre application !
+home_description=C'est un plaisir de vous avoir ici.
+
+# À propos
+about_title=À propos de nous
+about_description=Notre entreprise se spécialise dans...
+
+# Contact
+contact_title=Contactez-nous
+contact_name=Nom
+contact_email=Email
+contact_message=Message
+contact_send=Envoyer le message
+
+# Paramètres
+settings_title=Paramètres
+settings_language=Langue
+settings_theme=Thème
+settings_dark=Sombre
+settings_light=Clair
