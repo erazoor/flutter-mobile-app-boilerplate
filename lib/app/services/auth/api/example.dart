@@ -19,8 +19,8 @@ class Example {
       http.Response response = await http.get(url, headers: headers);
 
       if (response.statusCode != errors.kErrorCodeServer) {
-        _logger.severe('Failed: ${response.statusCode}');
-        throw Exception('Failed: ${response.statusCode}');
+        _logger.severe('Failed: ${response.statusCode}\n${errors.kErrorMessageServer}');
+        throw Exception('Failed: ${response.statusCode}\n${errors.kErrorMessageServer}');
       }
 
       // Process the response
