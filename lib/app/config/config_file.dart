@@ -1,4 +1,3 @@
-
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class ApiConfig {
@@ -21,9 +20,12 @@ class LogConfig {
 }
 
 class StrategiesConfig {
-  static const bool enableGoogleStrategy = true;
-  static const bool enableTwitterStrategy = true;
-  static const bool enableJwtStrategy = true;
+  static const bool enableGoogleStrategy = false;
+  static const bool enableTwitterStrategy = false;
+
+  static String get googleAPIKey => dotenv.env['GOOGLE_API_KEY'] ?? '';
+  static String get twitterConsumerKey => dotenv.env['TWITTER_CONSUMER_KEY'] ?? '';
+  static String get twitterConsumerSecret => dotenv.env['TWITTER_CONSUMER_SECRET'] ?? '';
 }
 
 // Ui Constants
@@ -32,4 +34,4 @@ const String appName = 'Flutter Mobile App Boilerplate';
 // Feature Flags
 const bool kEnableFeatureA = true;
 const bool kEnableFeatureB = false;
-const bool kEnableFeatureC = true;
+const bool kEnableFeatureC = false;
