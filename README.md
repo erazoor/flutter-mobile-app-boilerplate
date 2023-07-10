@@ -41,6 +41,7 @@ flutter pub get
 ```bash
 flutter pub global activate rename
 ```
+
 ```bash
 flutter pub global run %NEW_NAME% --bundleId com.example.%NEW_NAME%
 ```
