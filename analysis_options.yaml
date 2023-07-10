@@ -23,7 +23,7 @@ linter:
     avoid_types_as_parameter_names: true
 
     # Indentation
-    indent: 2
+    indent: 4
 
     # Documentation
     avoid_relative_lib_imports: true
