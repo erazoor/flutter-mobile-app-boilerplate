@@ -1,1 +1,1 @@
-const String app_name = 'Flutter Mobile App Boilerplate';
+const String appName = 'Flutter Mobile App Boilerplate';
