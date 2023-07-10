@@ -14,17 +14,6 @@ class HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    performAsyncTask();
-  }
-
-  Future<void> performAsyncTask() async {
-    try {
-      // Your asynchronous task that may throw an error
-      await Future.delayed(const Duration(seconds: 3));
-      // Simulating an error for demonstration purposes
-    } catch (error) {
-      throw Exception('An error occurred!');
-    }
   }
 
   @override
