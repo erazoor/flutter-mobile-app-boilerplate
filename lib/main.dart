@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 
 import 'package:logging/logging.dart';
 
+import 'package:flutter_mobile_app_boilerplate/app/config/routes.dart';
+import 'package:flutter_mobile_app_boilerplate/app/views/home_page.dart';
+import 'package:flutter_mobile_app_boilerplate/app/utils/router.dart' 
+    as router;
 import 'package:flutter_mobile_app_boilerplate/app/config/config_file.dart'
     as config;
-import 'package:flutter_mobile_app_boilerplate/app/views/home_page.dart';
 import 'package:flutter_mobile_app_boilerplate/app/themes/colors.dart'
     as app_colors;
 import 'package:flutter_mobile_app_boilerplate/app/themes/fonts.dart'
@@ -53,6 +56,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: config.appName,
       home: HomePage(),
+      onGenerateRoute: router.generateRoute,
+      initialRoute: GenericRoutes.homeRoute,
     );
   }
 }
