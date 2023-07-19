@@ -17,7 +17,7 @@ class DisplayCard extends StatelessWidget {
         padding: EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget> [
+          children: <Widget>[
             Text(
               config.appName,
               style: app_fonts.AppFonts.h1,
