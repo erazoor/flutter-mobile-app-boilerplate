@@ -15,7 +15,7 @@ These instructions will help you get a copy of the project up and running on you
 - **Flutter SDK**: [Installation Guide](https://flutter.dev/docs/get-started/install)
 - **Android Studio and Android SDK** (For Android)
 - **Java Development Kit (JDK)** (For Android)
-- **Xcode** (For macOS)
+- **Xcode** (For macOS) 
 
 ### Installing
 
