@@ -20,6 +20,6 @@ class PasswordValidator {
       return 'Password must contain at least one uppercase letter,' 
       'one lowercase letter, one digit, and one special character.';
 
-    return null;
+    return 'Valid password.';
   }
 }
